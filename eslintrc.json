@@ -1,0 +1,77 @@
+{
+  "plugins": [
+    "unicorn",
+    "import",
+    "promise",
+    "jsdoc",
+    "es"
+  ],
+  "extends": [
+    "plugin:unicorn/recommended",
+    "plugin:promise/recommended",
+    "plugin:jsdoc/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "settings": {
+    "jsdoc": {
+      "mode": "typescript"
+    }
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "no-extra-semi": 2,
+
+    "comma-dangle": [1, {
+      "arrays": "ignore",
+      "objects": "ignore",
+      "imports": "ignore",
+      "exports": "ignore",
+      "functions": "never"
+    }],
+    "func-style": [1, "expression", { "allowArrowFunctions": true }],
+    "jsx-quotes": 0,
+    "no-console": 1,
+    "no-multi-spaces": [2, {"ignoreEOLComments": true}],
+    "no-unused-vars": [2, {"args": "after-used", "ignoreRestSiblings": true}],
+    "no-var": 2,
+    "no-warning-comments": [1, { "terms": ["fixme"] }],
+    "object-shorthand": [2, "properties"],
+    "quote-props": [2, "as-needed", { "keywords": true, "numbers": true, "unnecessary": false }],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    "require-atomic-updates": 2,
+
+    "unicorn/catch-error-name": [2, {"name": "err"}],
+    "unicorn/consistent-function-scoping": 0,
+    "unicorn/expiring-todo-comments": [1, {
+      "allowWarningComments": true,
+      "ignoreDatesOnPullRequests": true
+    }],
+    "unicorn/explicit-length-check": 0,
+    "unicorn/prefer-add-event-listener": 1,
+    "unicorn/prefer-modern-dom-apis": 1,
+    "unicorn/prefer-node-append": 0,
+    "unicorn/prefer-replace-all": 0,
+    "unicorn/prefer-spread": 1,
+    "unicorn/prevent-abbreviations": 0,
+    "unicorn/better-regex": [1, { "sortCharacterClasses": false }],
+
+    "promise/always-return": 0,
+    "promise/catch-or-return": [2, { "allowFinally": true }],
+    "promise/no-callback-in-promise": 0,
+    "promise/no-nesting": 0,
+
+    "es/no-exponential-operators": 1,
+
+    "import/no-deprecated": 1,
+
+    "jsdoc/check-types": 0,
+    "jsdoc/no-undefined-types": 0,
+    "jsdoc/require-jsdoc": 0,
+    "jsdoc/require-param-description": 0,
+    "jsdoc/require-property-description": 0,
+    "jsdoc/require-returns-description": 0,
+    "jsdoc/valid-types": 0
+  }
+}

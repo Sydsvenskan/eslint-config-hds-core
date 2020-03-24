@@ -1,0 +1,17 @@
+/node_modules
+
+# We're a library, so please, no yarn.lock
+/yarn.lock
+yarn-error.log
+
+# Test things
+/coverage
+
+*.swp
+*.swo
+*.tern-port
+
+# Please..
+.DS_Store
+npm-debug.log
+newrelic_agent.log

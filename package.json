@@ -1,0 +1,49 @@
+{
+  "name": "@hdsydsvenskan/eslint-config-hds-core",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "HD-Sydsvenskan ESLint shareable config for core linting rules",
+  "author": "HD-Sydsvenskan <webtech@hdsydsvenskan.se>",
+  "homepage": "https://github.com/Sydsvenskan/eslint-config-hds-core",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sydsvenskan/eslint-config-hds-core.git"
+  },
+  "scripts": {
+    "test": "installed-check -i eslint && eslint ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-es": "^3.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^22.0.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "^17.2.0",
+    "husky": "^4.2.3",
+    "installed-check": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-es": "^3.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^22.0.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "^17.2.0"
+  }
+}
