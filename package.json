@@ -1,6 +1,6 @@
 {
   "name": "@hdsydsvenskan/eslint-config-hds-core",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "HD-Sydsvenskan ESLint shareable config for core linting rules",
   "author": "HD-Sydsvenskan <webtech@hdsydsvenskan.se>",
