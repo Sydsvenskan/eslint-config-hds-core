@@ -49,10 +49,13 @@
       "ignoreDatesOnPullRequests": true
     }],
     "unicorn/explicit-length-check": 0,
+    "unicorn/no-null": 0,
     "unicorn/prefer-add-event-listener": 1,
     "unicorn/prefer-modern-dom-apis": 1,
     "unicorn/prefer-node-append": 0,
+    "unicorn/prefer-number-properties": 1,
     "unicorn/prefer-replace-all": 0,
+    "unicorn/prefer-set-has": 1,
     "unicorn/prefer-spread": 1,
     "unicorn/prevent-abbreviations": 0,
     "unicorn/better-regex": [1, { "sortCharacterClasses": false }],
