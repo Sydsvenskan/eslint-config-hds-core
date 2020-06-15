@@ -1,9 +1,10 @@
 # HD-Sydsvenskan JavaScript Core
 
-Complements `standard` when setting up our style guides for browser, node and typescript.
+Contains additional rules which we use on top of [Standard JS](https://standardjs.com/) in our linting setups for browser js, node, typescript and such.
 
-Include after `standard`. Bundles `semistandard` rules.
+Include this config after the [Standard JS ESLint config](https://github.com/standard/eslint-config-standard). Bundles the [Semistandard](https://github.com/standard/eslint-config-semistandard) modifications.
 
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat)](https://github.com/Flet/semistandard)
 <!--
 [![Build Status](https://travis-ci.com/Sydsvenskan/eslint-config-hds-core.svg?branch=master)](https://travis-ci.com/Sydsvenskan/eslint-config-hds-core)
 [![dependencies Status](https://david-dm.org/@hdsydsvenskan/eslint-config-hds-core/status.svg)](https://david-dm.org/Sydsvenskan/eslint-config-hds-core)
